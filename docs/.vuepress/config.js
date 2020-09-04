@@ -1,8 +1,3 @@
-const head = require('./config/headConfig');
-const plugins = require('./config/pluginsConfig');
-const nav = require('./config/navConfig');
-const sidebar = require('./config/sidebarConfig');
-
 module.exports = {
   base: '/notes/',
   dest: 'dist',
