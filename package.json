@@ -24,12 +24,8 @@
   "homepage": "https://github.com/n65312/n65312.github.io#readme",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.4",
-    "@vuepress/plugin-google-analytics": "^1.5.4",
     "@vuepress/plugin-pwa": "^1.5.4",
     "vuepress": "^1.5.4"
   },
-  "dependencies": {
-    "@vssue/api-github-v4": "^1.4.0",
-    "@vssue/vuepress-plugin-vssue": "^1.4.6"
-  }
+  "dependencies": {}
 }
