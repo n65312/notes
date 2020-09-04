@@ -1,0 +1,35 @@
+{
+  "name": "n65312.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n65312/n65312.github.io.git"
+  },
+  "keywords": [
+    "笔记",
+    "Lin"
+  ],
+  "author": "Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n65312/n65312.github.io/issues"
+  },
+  "homepage": "https://github.com/n65312/n65312.github.io#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.4",
+    "@vuepress/plugin-google-analytics": "^1.5.4",
+    "@vuepress/plugin-pwa": "^1.5.4",
+    "vuepress": "^1.5.4"
+  },
+  "dependencies": {
+    "@vssue/api-github-v4": "^1.4.0",
+    "@vssue/vuepress-plugin-vssue": "^1.4.6"
+  }
+}
