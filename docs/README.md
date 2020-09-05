@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: home.jpeg
+heroImage: home.png
 heroText: 
 tagline: 记录，分享
 actionText: 进入笔记 →

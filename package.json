@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
   "repository": {
@@ -24,8 +24,8 @@
   "homepage": "https://github.com/n65312/n65312.github.io#readme",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.4",
+    "@vuepress/plugin-medium-zoom": "^1.5.4",
     "@vuepress/plugin-pwa": "^1.5.4",
     "vuepress": "^1.5.4"
-  },
-  "dependencies": {}
+  }
 }
