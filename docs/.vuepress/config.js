@@ -1,7 +1,7 @@
 module.exports = {
   base: '/notes/',
   dest: 'dist',
-  title: 'Lin\'s Blog',
+  title: 'Notes',
   description: '记录，分享',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -18,7 +18,6 @@ module.exports = {
     smoothScroll: true,
     lastUpdated: '上次更新',
     nav: [
-      { text: '首页', link: '/' },
       {
         text: '前端',
         items: [
@@ -117,7 +116,7 @@ module.exports = {
     },
     '@vuepress/back-to-top': true,
     '@vuepress/medium-zoom': {
-      selector: 'img',
+      selector: 'img.custom-zoom',
     }
   }
 }

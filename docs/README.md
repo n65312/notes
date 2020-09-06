@@ -1,9 +1,7 @@
 ---
 home: true
-heroImage: home.png
-heroText: 
-tagline: 记录，分享
+heroImage: hero.png
 actionText: 进入笔记 →
 actionLink: /computer.html
-footer: 本站仅做个人笔记使用 | MIT Licensed 
+footer: 本站仅做个人笔记使用 
 ---
