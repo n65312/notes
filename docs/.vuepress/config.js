@@ -21,8 +21,8 @@ module.exports = {
       {
         text: '前端',
         items: [
-          { text: 'HTML+CSS', link: '/hc/prepare/' },
-          { text: 'JavaScript', link: '/js/' },
+          { text: 'HTML + CSS', link: '/hc/prepare/' },
+          { text: 'JavaScript', link: '/js/prepare/' },
         ],
       },
       { text: '计算机', link: '/computer' },
@@ -34,7 +34,7 @@ module.exports = {
           title: '概述',
           children: [
             ['prepare/', '开始'],
-            'prepare/prepare',
+            'prepare/introduce',
           ]
         },
         {
@@ -97,9 +97,99 @@ module.exports = {
         }
       ],
       '/js/': [
-        '',
-        'js1',
-        'js2',
+        {
+          title: '概述',
+          children: [
+            ['prepare/', '开发环境的准备'],
+            'prepare/introduce',
+          ]
+        },
+        {
+          title: 'JS语法基础',
+          children: [
+            ['js-basic/', '第一个JS程序'],
+            'js-basic/2',
+            'js-basic/3',
+            'js-basic/4',
+            'js-basic/5',
+          ]
+        },
+        {
+          title: '运算符',
+          children: [
+            ['operator/', '运算符概述'],
+            'operator/2',
+            'operator/3',
+            'operator/4',
+            'operator/5',
+            'operator/6',
+            'operator/7',
+            'operator/8',
+            'operator/9',
+          ]
+        },
+        {
+          title: '流程控制',
+          children: [
+            ['process/', '流程图'],
+            'process/2',
+            'process/3',
+            'process/4',
+            'process/5',
+          ]
+        },
+        {
+          title: '函数',
+          children: [
+            ['function/', '函数语法'],
+            'function/2',
+            'function/3',
+            'function/4',
+            'function/5',
+            'function/6',
+          ]
+        },
+        {
+          title: '标准库',
+          children: [
+            ['standard-library/', '介绍'],
+            'standard-library/2',
+            'standard-library/3',
+            'standard-library/4',
+            'standard-library/5',
+            'standard-library/6',
+            'standard-library/7',
+          ]
+        },
+        {
+          title: 'DOM',
+          children: [
+            ['dom/', '概述'],
+            'dom/2',
+            'dom/3',
+            'dom/4',
+            'dom/5',
+            'dom/6',
+            'dom/7',
+            'dom/8',
+            'dom/9',
+            'dom/10',
+            'dom/11',
+          ]
+        },
+        {
+          title: 'BOM',
+          children: [
+            ['bom/', '计时器'],
+            'bom/2',
+          ]
+        },
+        {
+          title: 'JS进阶',
+          children: [
+            ['js-advanced/', '开始']
+          ]
+        }
       ],
       '/': [
         'computer',
