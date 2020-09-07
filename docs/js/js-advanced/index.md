@@ -15,7 +15,7 @@
 
 `prototype`中有一个属性，`constructor`，它也是一个对象，它指向构造函数本身。
 
-<img :src="$withBase('/constructor.png')" alt="constructor">
+<img :src="$withBase('/assets/constructor.png')" alt="constructor">
 
 ## 隐式原型 \_\_proto\_\_
 

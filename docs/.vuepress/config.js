@@ -12,26 +12,28 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
     ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   themeConfig: {
     smoothScroll: true,
     lastUpdated: '上次更新',
     nav: [
       {
-        text: '前端',
+        text: 'front-end',
         items: [
           { text: 'HTML + CSS', link: '/hc/prepare/' },
           { text: 'JavaScript', link: '/js/prepare/' },
         ],
       },
-      { text: '计算机', link: '/computer' },
+      { text: 'Computer', link: '/computer' },
       { text: 'Github', link: 'https://github.com/n65312/notes' },
     ],
     sidebar: {
       '/hc/': [
         {
           title: '概述',
+          collapsable: false,
           children: [
             ['prepare/', '开始'],
             'prepare/introduce',
@@ -39,6 +41,7 @@ module.exports = {
         },
         {
           title: 'HTML基础',
+          collapsable: false,
           children: [
             ['html-basic/', '开始'],
             'html-basic/2',
@@ -55,6 +58,7 @@ module.exports = {
         },
         {
           title: 'CSS基础',
+          collapsable: false,
           children: [
             ['css-basic/', '开始'],
             'css-basic/2',
@@ -71,6 +75,7 @@ module.exports = {
         },
         {
           title: 'HTML进阶',
+          collapsable: false,
           children: [
             ['html-advanced/', '开始'],
             'html-advanced/2',
@@ -82,6 +87,7 @@ module.exports = {
         },
         {
           title: 'CSS进阶',
+          collapsable: false,
           children: [
             ['css-advanced/', '开始'],
             'css-advanced/2',
@@ -99,6 +105,7 @@ module.exports = {
       '/js/': [
         {
           title: '概述',
+          collapsable: false,
           children: [
             ['prepare/', '开发环境的准备'],
             'prepare/introduce',
@@ -106,6 +113,7 @@ module.exports = {
         },
         {
           title: 'JS语法基础',
+          collapsable: false,
           children: [
             ['js-basic/', '第一个JS程序'],
             'js-basic/2',
@@ -116,6 +124,7 @@ module.exports = {
         },
         {
           title: '运算符',
+          collapsable: false,
           children: [
             ['operator/', '运算符概述'],
             'operator/2',
@@ -130,6 +139,7 @@ module.exports = {
         },
         {
           title: '流程控制',
+          collapsable: false,
           children: [
             ['process/', '流程图'],
             'process/2',
@@ -140,6 +150,7 @@ module.exports = {
         },
         {
           title: '函数',
+          collapsable: false,
           children: [
             ['function/', '函数语法'],
             'function/2',
@@ -151,6 +162,7 @@ module.exports = {
         },
         {
           title: '标准库',
+          collapsable: false,
           children: [
             ['standard-library/', '介绍'],
             'standard-library/2',
@@ -163,6 +175,7 @@ module.exports = {
         },
         {
           title: 'DOM',
+          collapsable: false,
           children: [
             ['dom/', '概述'],
             'dom/2',
@@ -179,6 +192,7 @@ module.exports = {
         },
         {
           title: 'BOM',
+          collapsable: false,
           children: [
             ['bom/', '计时器'],
             'bom/2',
@@ -186,6 +200,7 @@ module.exports = {
         },
         {
           title: 'JS进阶',
+          collapsable: false,
           children: [
             ['js-advanced/', '开始']
           ]
