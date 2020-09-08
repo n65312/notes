@@ -221,7 +221,7 @@ module.exports = {
     },
     '@vuepress/back-to-top': true,
     '@vuepress/medium-zoom': {
-      selector: 'img.custom-zoom',
+      selector: '.theme-default-content > img'
     }
   }
 }
