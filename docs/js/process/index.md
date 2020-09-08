@@ -4,11 +4,11 @@
 
 通常流程图分析程序的流程
 
-![image-20200605174440296](https://gitee.com/n65312/Typora-images/raw/master/uPic/image-20200605174440296.png)
+![流程图](https://gitee.com/n65312/Typora-images/raw/master/uPic/image-20200605174440296.png)
 
 ## 在markdown中画流程图
 
-```md
+```mermaid
 graph TD
 start((开始))-->if{判断}
 if--true-->A[文字]
@@ -20,7 +20,7 @@ A-->ed
 
 示例1:
 
-```md
+```mermaid
 graph TD
 st((开始))--> buyPeach[买2个桃子]
 buyPeach-->if{是否碰到卖西瓜的}
@@ -31,7 +31,7 @@ buyXigua-->ed
 
 示例2:
 
-```md
+```mermaid
 graph TD
 st((开始))-->if{是否碰到卖西瓜的}
 if--true-->买1个桃子

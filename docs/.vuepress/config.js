@@ -222,6 +222,7 @@ module.exports = {
     '@vuepress/back-to-top': true,
     '@vuepress/medium-zoom': {
       selector: '.theme-default-content > img'
-    }
+    },
+    'vuepress-plugin-mermaidjs':true
   }
 }
