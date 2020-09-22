@@ -202,7 +202,16 @@ module.exports = {
           title: 'JS进阶',
           collapsable: false,
           children: [
-            ['js-advanced/', '开始']
+            ['js-advanced/', '原型与原型链'],
+            'js-advanced/2',
+            'js-advanced/3',
+            'js-advanced/4',
+            'js-advanced/5',
+            'js-advanced/6',
+            'js-advanced/7',
+            'js-advanced/8',
+            'js-advanced/9',
+            'js-advanced/10',
           ]
         }
       ],

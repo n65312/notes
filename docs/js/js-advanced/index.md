@@ -8,7 +8,8 @@
 
 - 所有对象都是引用类型。
 
-<img :src="$withBase('/assets/Function.png')" alt="Function">
+
+![Function](https://gitee.com/n65312/Typora-images/raw/master/uPic/Function-20200922dS5LS6.png)
 
 ## 原型 prototype
 
@@ -22,7 +23,8 @@
 
 `prototype`中有一个属性，`constructor`，它也是一个对象，它指向构造函数本身。
 
-<img :src="$withBase('/assets/constructor.png')" alt="constructor">
+
+![constructor](https://gitee.com/n65312/Typora-images/raw/master/uPic/constructor-20200922NNet02.png)
 
 ## 隐式原型 `__proto__`
 
@@ -30,7 +32,8 @@
 
 **默认情况下，隐式原型指向创建该对象的函数的原型。**
 
-<img :src="$withBase('/assets/proto.png')" alt="proto">
+
+![proto](https://gitee.com/n65312/Typora-images/raw/master/uPic/proto-202009220zHZtx.png)
 
 :::tip 上图信息，可知：
 `函数add.prototype === 对象1.__proto__ === 对象2.__proto__`
@@ -47,9 +50,11 @@
 
 ## 原型链
 
-<img :src="$withBase('/assets/Prototype chain.png')" alt="Prototype chain">
 
-特殊点：
+![Prototype chain](https://gitee.com/n65312/Typora-images/raw/master/uPic/Prototype%20chain-20200922Rodayf.png)
 
-1. **Function** 的`__proto__`指向自身的 `prototype`
-2. **Object** 的 `prototype` 的`__proto__`指向 `null`
+:::tip 特殊点：
+1. **Function** 的隐式原型(`__proto__`)指向自身的原型 (`prototype`)。
+
+2. **Object** 的原型 (`prototype`) 的隐式原型(`__proto__`)指向 `null`。
+:::
