@@ -1,7 +1,11 @@
 ---
 home: true
-heroImage: hero.png
-actionText: 进入笔记 →
-actionLink: /computer.html
-footer: 本站仅做个人笔记使用 
+# 主页图片
+# heroImage: hero1.jpeg
+# 主页背景图
+# bgImage: 'hero1.jpeg'
+# 背景图样式
+# bgImageStyle: {
+#   height: '0px'
+# }
 ---
