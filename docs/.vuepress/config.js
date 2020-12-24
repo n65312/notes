@@ -1,8 +1,8 @@
 module.exports = {
   base: '/notes/',
   dest: 'dist',
-  title: 'Notes',
-  description: '记录，分享',
+  title: 'Development Document',
+  description: '开发者手册',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
