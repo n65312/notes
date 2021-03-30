@@ -61,11 +61,11 @@ module.exports = {
    * valine 设置 (if you need valine comment )
    * 评论功能
    */
-  valineConfig: {
-    appId: 'gJy1qiknLPy2NegQw3PHHDLu-gzGzoHsz',// your appId
-    appKey: 'KnPJJSI2lbAI83zAD8hxH8c6', // your appKey
-    placeholder: '欢迎评论'
-  },
+  // valineConfig: {
+  //   appId: 'gJy1qiknLPy2NegQw3PHHDLu-gzGzoHsz',// your appId
+  //   appKey: 'KnPJJSI2lbAI83zAD8hxH8c6', // your appKey
+  //   placeholder: '欢迎评论'
+  // },
   // 启用页面滚动效果
   smoothScroll: true,
   // 导航栏配置
