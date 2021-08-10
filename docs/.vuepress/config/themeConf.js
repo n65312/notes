@@ -3,6 +3,12 @@ const sidebarConf = require('./sidebarConf');
 
 module.exports = {
   type: "blog",
+  mode: 'auto', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+  modePicker: true, // 默认 true，false 不显示模式调节按钮，true 则显示
+  subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+  smoothScroll: true, // 启用页面滚动效果
+  nav: navConf, // 导航栏配置
+  sidebar: sidebarConf, // 侧边栏配置
   // 博客配置
   blogConfig: {
     category: {
@@ -13,8 +19,7 @@ module.exports = {
       location: 3,     // 在导航栏菜单中所占的位置，默认3
       text: 'Tag'      // 默认文案 “标签”
     },
-    socialLinks: [     // 信息栏展示社交信息
-    ]
+    socialLinks: []     // 信息栏展示社交信息
   },
   // 友链
   friendLink: [
@@ -35,8 +40,6 @@ module.exports = {
   // 搜索设置
   search: true,
   searchMaxSuggestions: 10,
-  // 自动形成侧边导航
-  // sidebar: 'auto',
   // 最后更新时间
   lastUpdated: 'Last Updated',
   // 作者
@@ -50,13 +53,11 @@ module.exports = {
   /**
    * 密钥 (if your blog is private)
    */
-
   // keyPage: {
   //   keys: ['your password'],
   //   color: '#42b983',
   //   lineColor: '#42b983'
   // },
-
   /**
    * valine 设置 (if you need valine comment )
    * 评论功能
@@ -66,10 +67,4 @@ module.exports = {
   //   appKey: 'KnPJJSI2lbAI83zAD8hxH8c6', // your appKey
   //   placeholder: '欢迎评论'
   // },
-  // 启用页面滚动效果
-  smoothScroll: true,
-  // 导航栏配置
-  nav: navConf,
-  // 侧边栏配置
-  sidebar: sidebarConf
 }

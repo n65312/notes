@@ -5,8 +5,8 @@ const pluginsConf = require('./config/pluginsConf');
 module.exports = {
   base: '/notes/',
   dest: 'dist',
-  title: '青青子衿',
-  description: 'Where there is a will there is a way .',
+  title: "笔记本",
+  description: '学而时习之',
   head: headConf,
   theme: "reco",
   themeConfig: themeConf,

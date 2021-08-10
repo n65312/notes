@@ -3,9 +3,9 @@ home: true
 # 主页图片
 # heroImage: hero1.jpeg
 # 主页背景图
-# bgImage: 'hero1.jpeg'
+# bgImage: 'book.png'
 # 背景图样式
-# bgImageStyle: {
-#   height: '0px'
-# }
+bgImageStyle: {
+  height: '300px',
+}
 ---
