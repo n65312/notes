@@ -53,7 +53,7 @@ module.exports = {
             '11.element-relation',
             '12.iframe-element',
             '13.flash',
-            '14.form-element ',
+            '14.form-element',
             '15.form2',
             '16.table',
             '17.other',
