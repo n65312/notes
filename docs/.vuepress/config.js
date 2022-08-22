@@ -30,6 +30,7 @@ module.exports = {
           { text: 'HTML', link: '/note/html/introduce' },
           { text: 'CSS', link: '/note/css/0.Add-style' },
           { text: 'JS', link: '/note/js/0.Overview' },
+          { text: 'Vue', link: '/note/vue/1.Directives' }
         ]
       }
     ],
@@ -53,7 +54,7 @@ module.exports = {
             '11.element-relation',
             '12.iframe-element',
             '13.flash',
-            '14.form-element ',
+            '14.form-element',
             '15.form2',
             '16.table',
             '17.other',
@@ -149,6 +150,14 @@ module.exports = {
             '52.Debounce-throttle',
             '53.Curry',
             '54.Pipeline-Function',
+          ]
+        }
+      ],
+      '/note/vue/':[
+        {
+          text: 'Vue',
+          children: [
+            '1.Directives'
           ]
         }
       ]
